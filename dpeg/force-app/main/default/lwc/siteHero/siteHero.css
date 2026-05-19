@@ -1,0 +1,60 @@
+.hero {
+    min-height: 620px;
+    background: linear-gradient(120deg, #0b2e4a, #1f4e68);
+    color: #ffffff;
+}
+
+.overlay {
+    min-height: 620px;
+    display: flex;
+    align-items: center;
+    padding: 80px 70px;
+}
+
+.content {
+    max-width: 760px;
+}
+
+.eyebrow {
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #d6b46d;
+    margin-bottom: 18px;
+}
+
+h1 {
+    font-size: 66px;
+    line-height: 1.1;
+    margin: 0 0 24px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 36px;
+    color: #f3f4f6;
+}
+
+.actions {
+    display: flex;
+    gap: 16px;
+}
+
+.actions a {
+    padding: 15px 26px;
+    border-radius: 4px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.primary {
+    background: #ffffff;
+    color: #0b2e4a;
+}
+
+.secondary {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
