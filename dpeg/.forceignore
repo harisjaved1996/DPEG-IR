@@ -1,14 +1,18 @@
-# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
-# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
-#
+# Standard ignores
+.forceignore
 
-package.xml
+# Non-Salesforce project directories - exclude from all deployments
+docs/
+scripts/
 
-# LWC configuration files
-**/jsconfig.json
-**/.eslintrc.json
+# IDE and OS artifacts
+.vscode/
+.DS_Store
+*.swp
+*~
 
-# LWC Jest
-**/__tests__/**
-
+# Node modules
 node_modules/
+
+# Scratch org config (not deployable metadata)
+config/

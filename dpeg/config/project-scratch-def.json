@@ -1,13 +1,26 @@
 {
-  "orgName": "Demo company",
+  "orgName": "DPEG Dev Org",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "features": [
+    "EnableSetPasswordInApi",
+    "DuplicateManagement",
+    "ApprovalWorkflow",
+    "Communities",
+    "MarketingUser",
+    "FieldAuditTrail"
+  ],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
     }
   }
 }
